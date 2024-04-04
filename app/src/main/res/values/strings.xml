@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Andromeda</string>
+    <string name="category">Category</string>
+    <string name="user_profile">User Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="username">Username</string>
+    <string name="susiru_sampath">Susiru Sampath</string>
+    <string name="email">Email</string>
+    <string name="susirusampath2_gmail_com">susirusampath2@gmail.com</string>
+    <string name="subscription">Subscription</string>
+    <string name="free">Free</string>
+    <string name="with_andromeda_premium_you_ll_enjoy_full_on_demand_access_to_our_massive_music_catelog_with_none_of_the_restrictions">With Andromeda Premium you\'ll enjoy full on -demand access to our massive music catelog, with none of the restrictions</string>
+    <string name="what_is_premium">What is Premium?</string>
+    <string name="home">Home</string>
+</resources>
