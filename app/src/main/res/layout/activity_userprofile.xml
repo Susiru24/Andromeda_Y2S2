@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/up1"
+    tools:context=".userprofile">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:alpha="0.45"
+        >
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            >
+
+            <Button
+                android:id="@+id/hom"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="#1ED760"
+                android:text="Home"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/cat"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="3dp"
+                android:backgroundTint="#1ED760"
+                android:text="Category"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:backgroundTint="#0C9A3E"
+                android:text="User Profile"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:layout_marginLeft="3dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingTop="40dp">
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="User Name"
+                android:textColor="#A8AEA4"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:paddingTop="50dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Susiru Sampath "
+                android:textColor="#FFFBFB"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:paddingTop="5dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="#A7ADA3"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:paddingTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="susirusampath1@gmail.com"
+                android:textColor="#FFFBFB"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:paddingTop="5dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Subscription"
+                android:textColor="#999D95"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:paddingTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Free"
+                android:textColor="#FFFBFB"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:paddingTop="5dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What is Premium"
+                android:textStyle="bold"
+                android:textColor="#989C94"
+                android:textSize="22dp"
+                android:paddingTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="With andromeda premium you'll enjoy full on demand access to our massive music catelog with none of the restrictions"
+                android:textColor="#FFFBFB"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+
+            >
+
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:backgroundTint="#1ED760"
+                android:text="Edit Profile"
+                android:textColor="@color/white"
+                android:textSize="22.5sp"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="0dp">
+
+            <Button
+                android:id="@+id/lgout"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:backgroundTint="#4A4A4A"
+                android:text="Log Out"
+                android:textColor="@color/white"
+                android:textSize="22.5sp"
+                />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
